@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap');
+
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Inconsolata;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.contenedorTitulo{
+    background-image:url(imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.titulo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo h1{
+    font-size: 8rem;
+    font-weight: 200;
+    color:yellow;
+    margin-top: 2rem;
+}
+
+.contenedorFormulario{
+    display: flex;
+    padding-top: 10%;
+    justify-content: center;
+    background-color: salmon
+}
+
+
+.formulario{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formulario h2{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.formulario h3{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 0.8rem;
+    text-align: left;
+}
+
+.inputContraseña, .inputUsuario{
+    background-color: rgba(0, 0, 0, 0);
+    width: 40rem;
+    height: 4rem;
+    border-width: 0;
+    border-bottom-width: 0.2rem;
+    border-color: white;
+    color: white;
+    font-size: 2rem;
+}
+
+.boton{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}
+
+.boton a{
+    padding-left: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 14rem;
+    background-color: white;
+    color: salmon;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+}
+
+.enlaces{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+}
+
+.enlaces a{
+    color: white;
+}
+
+.enlaces a:hover{
+    transform: scale(1.1);
+}
+
+.noTengo:hover{
+    transform: scale(1.1);
+}
+.formulario span{
+    color: yellow;
+    text-decoration: underline
+}
+
+
+
+

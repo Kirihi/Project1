@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap');
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.Wdgt .Title {
+    font-size: 1rem;
+}
+
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1.3rem;
+      padding-left: 1.3rem;
+  }
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #151515;
+    color: #fff;
+    font-family: Titillium Web,sans-serif;
+    margin-bottom: 7.5rem;
+    display: block;
+    margin: 8px;
+}
+
+h1{
+    font-size:2em;
+    margin:.67em 0
+}
+
+.Banner{
+    display:block;
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    height:0;
+    padding-bottom:20%
+}
+
+.Banner img{
+    width:110%!important;
+    max-width:110%;
+    position:absolute;
+    top:-25%;
+    left:-5%;
+}
+
+.Banner .filtr{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    padding-bottom:10%;
+    background:-webkit-gradient(linear,left top,left bottom,from(transparent),to(#151515));
+    background:linear-gradient(transparent,#151515)
+}
+
+.container{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.Description{
+    color:hsla(0,0%,100%,.5)
+}
+
+.Image img{
+    padding:5px;
+    border-radius:5%;
+    -o-object-fit:cover;
+    object-fit:cover;
+    display:block;
+    margin:auto!important
+}
+
+.generos{
+    display: flex;
+    align-items: center;
+}
+
+.generos a:hover{
+    transform: scale(1.1);
+    background:yellow;
+    color: black;
+    opacity:1
+}
+
+.generos a {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.0rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: black;
+    margin-left: 1rem;
+    color: yellow;
+    text-decoration: none;
+}
+
+.Title-Serie{
+    font-size:18px;
+    margin:5px 0;
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+.SerieCaps{
+    margin-bottom:20px;
+    max-height:400px;
+    overflow-x:auto;
+}
+
+.SerieCaps{
+    margin-bottom:20px;
+    max-height:400px;
+    overflow-x:auto
+}
+
+.SerieCaps .item{
+    display:block;
+    border:1px solid #2b2a2a;
+    padding:20px 30px;
+    color:white;
+    text-decoration:none;
+}
+
+.SerieCaps .item:hover{
+    color:yellow;
+    text-decoration:none
+}
+
+
